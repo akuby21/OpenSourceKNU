@@ -1,6 +1,6 @@
 #!/usr/bin/python
-import binaryToOther as bin
-import unionInteger as union
+import my_pkg.binaryToOther as bin
+import my_pkg.unionInteger as union
 while True:
    sel = int(input("Select menu: 1) conversion 2) union/intersection 3) exit ? "))
    
